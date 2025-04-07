@@ -16,4 +16,4 @@ SCR
 
 Mobile
 
-	MobSG
+	MobSF
