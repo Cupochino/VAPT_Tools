@@ -177,8 +177,4 @@ Linux
 List usernames in device
 
 	"C:\Program Files\Tenable\Nessus\nessuscli.exe" lsuser
-
-
-
-
-
+ 
