@@ -29,9 +29,3 @@ Paste the activation request
 **Offline Device**
 
 Paste activation response into offline device
-
-
-
-
-
-
