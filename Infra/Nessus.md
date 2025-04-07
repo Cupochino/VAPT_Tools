@@ -15,7 +15,7 @@ Refer to this step-by-step guide
 
 **Download installer**
 	
- 	https://www.tenable.com/downloads/nessus?loginAttempted=true
+ 	https://www.tenable.com/downloads/nessus
 ![image](https://github.com/user-attachments/assets/88dda516-9c0f-4f2d-8f7e-72fc62cff427)
 
 **Once installation is completed**
@@ -37,10 +37,10 @@ Will end up in Register Nessus page
 
 Take note of the challenge code
 
-Device with internet
+**Device with internet**
 
 	https://plugins.nessus.org/v2/offline.php
-**Input challenge code and activation code**
+Input challenge code and activation code
 
 Challenge Code
 
