@@ -6,4 +6,4 @@ Make sure source codes are in a folder
 
 Start SCR
 
-	horusec1.exe start -D -p="<Full path to source code folder>"
+	horusec1.exe start -D -p="<Full path to source code folder only>" > SCR1.txt
