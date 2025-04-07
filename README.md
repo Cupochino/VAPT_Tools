@@ -11,8 +11,8 @@ Infra
 
 SCR
 
+	Horusec
 	SonarQube
- 	Horusec
 
 Mobile
 
