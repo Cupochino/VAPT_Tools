@@ -52,7 +52,7 @@ Activation code
 
 Save license key into text file
 
-**Download the latest plugin (!!! Note: Plugin be all-2.0.tar.gz !!!)**
+**Download the latest plugin (!!! Note: Plugin must be all-2.0.tar.gz !!!)**
 
 ![image](https://github.com/user-attachments/assets/bb9405c3-e979-4c3b-8fef-1863f7ee9972)
 
@@ -79,12 +79,13 @@ Top right > Manual Software update
 
 ![image](https://github.com/user-attachments/assets/29afd9bb-12fd-4ade-bb9a-b1fdd0604d48)
 
-Upload your own plugin archive (Note: Plugin must be all-2.0.tar.gz
+Upload your own plugin archive (Note: Plugin must be all-2.0.tar.gz)
 
 ![image](https://github.com/user-attachments/assets/5c2dda82-ada8-431a-8ef9-79a24f4b2df1)
 
 Bottom left will start to load
-There's no progress bar. Typically takes between 30 mins to 1 hour
+
+There's no progress bar. Usually takes between 30 mins to 1 hour
 
 ![image](https://github.com/user-attachments/assets/65796f33-2355-474a-a02a-d2fa7aad7115)
 
@@ -95,7 +96,9 @@ Once plugins installed, there will be a notification
 **Troubleshoot**
 
 **Not sure whether plugins have been uploaded and/or installed**
+
 Upload using both CLI and GUI
+
 After 1 hour or so, restart nessus service
 
 Windows
@@ -116,13 +119,13 @@ Ensure license has been renewed or a new license is ready for use
 
 https://docs.tenable.com/nessus/Content/UpdateLicenseOffline.htm
 
-Offline device
+**Offline device**
 
 Get the challenge code
 
 	"C:\Program Files\Tenable\Nessus\nessuscli.exe" fetch --challenge
 
-Device with Internet
+**Device with Internet**
 
 https://plugins.nessus.org/v2/offline.php
 
