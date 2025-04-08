@@ -1,16 +1,16 @@
-**Download Horusec.exe**
+<h2><b>Download Horusec.exe</b></h2>
 
 	https://github.com/ZupIT/horusec/releases/latest/download/horusec_win_amd64.exe
 
 Make sure source codes are in a folder
 
-**Start SCR**
+<h2><b>Start SCR</b></h2>
 
 	horusec1.exe start -D -p="<Full path to source code folder only>" > SCR1.txt
 
 ---------------------------------
 
-**Convert from text to Excel**
+<h2><b>Convert from text to Excel<h2><b>
 
 After FP, remove the following: 
 
