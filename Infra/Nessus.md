@@ -119,7 +119,7 @@ Linux
 
 Ensure license has been renewed or a new license is ready for use
 
-https://docs.tenable.com/nessus/Content/UpdateLicenseOffline.htm
+	https://docs.tenable.com/nessus/Content/UpdateLicenseOffline.htm
 
 <h3><b>Offline device</b></h3>
 
@@ -129,7 +129,7 @@ Get the challenge code
 
 <h3><b>Device with Internet</b></h3>
 
-https://plugins.nessus.org/v2/offline.php
+	https://plugins.nessus.org/v2/offline.php
 
 Input challenge code and activation code
 
