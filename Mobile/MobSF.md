@@ -2,13 +2,13 @@
 
 Works for both Static and Dynamic Analysis
 
-<h2><b>Download windows mobsf</b></h2>
+<h2><b>Download Windows MobSF</b></h2>
 
 	https://github.com/MobSF/Mobile-Security-Framework-MobSF
 
 	https://allabouttesting.org/quick-tutorial-mobsf-installation-on-linux-windows/
 
-<h2><b>Install docker desktop for windows</b></h2>
+<h2><b>Install Docker Desktop for Windows</b></h2>
 
 	https://docs.docker.com/desktop/install/windows-install/
 
@@ -20,7 +20,7 @@ Download any apk file to test
 
 	https://apkpure.net/
 
-Android studio how to link to MobSF guide
+Android Studio guide to how to link to MobSF
 
 	https://github.com/MobSF/docs/blob/master/dynamic_analyzer.md
 	
@@ -50,7 +50,7 @@ Download and select Pie, 28, x86, Android 9.0 (Google APIs)
 
 ![image](https://github.com/user-attachments/assets/b1f94562-e1e3-4220-b9a3-d7862f9a0705)
 
-<h3><b>!!! Do not start emulator in android studio !!!</b></h3>
+<h3><b>!!! Do not start emulator in Android Studio !!!</b></h3>
 
 <h2><b>Set emulator path in system path</b></h2>
 
@@ -83,7 +83,7 @@ Identify emulator name
 
 <h2><b>Identify emulator serial number</b></h2>
 
-Usually emulator-5554
+Usually it's 'emulator-5554'
 
 Help > About
 
