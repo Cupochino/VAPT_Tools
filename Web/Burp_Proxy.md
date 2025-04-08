@@ -1,4 +1,4 @@
-**MS Edge and IE**
+<h2><b>MS Edge and IE</b></h2>
 
 Computer Settings > Network & Internet > Proxy > Edit proxy server
 
