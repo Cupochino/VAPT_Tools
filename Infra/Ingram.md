@@ -1,4 +1,4 @@
-**Download and install ingram**
+<h2><b>Download and install ingram</b></h2>
 
 	git clone https://github.com/jorhelp/Ingram.git && cd Ingram
 
@@ -16,7 +16,7 @@ Google Country's network range
 
 ------------------------------------------
 
-**Masscan**
+<h1><b>Masscan</b></h1>
 
 Save range of targets in targets1.txt
 
@@ -28,7 +28,9 @@ Save range of targets in targets1.txt
 
 OR
 
-**run_ingram.py** (In the root directory of https://github.com/jorhelp/Ingram.git)
+<h1><b>run_ingram.py</b></h1>
+
+In the root directory of https://github.com/jorhelp/Ingram.git
 
 	python run_ingram.py
 
@@ -42,4 +44,4 @@ Once done, usually 1 target takes around 5 - 10 mins
 
 	cd results
 
-!!! Always rm -rf results/ for new scan !!!
+<h1><b>!!! Always rm -rf results/ for new scan !!!</b></h1>
