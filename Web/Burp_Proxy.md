@@ -11,6 +11,6 @@ Configure the proxy with the same settings found in burp
 
 ![image](https://github.com/user-attachments/assets/1be5af03-0ab4-43cb-9ec9-33f41d88179b)
 
-Launch application
+Launch browser and browse to targets
 
 There will be no internet connection
