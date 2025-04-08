@@ -1,15 +1,15 @@
-**Requirements**
+<h2><b>Requirements</b></h2>
 
 	Docker Desktop
 	JAVA
 
-**Download JAVA and set in System PATH**
+<h2><b>Download JAVA and set in System PATH</b></h2>
 
-**Download SonarQube**
+<h2><b>Download SonarQube</b></h2>
 
 https://www.sonarsource.com/products/sonarqube/downloads/
 
-**Install SonarQube**
+<h2><b>Install SonarQube</b></h2>
 
 https://www.sonarsource.com/products/sonarqube/downloads/https://docs.sonarsource.com/sonarqube-server/latest/analyzing-source-code/scanners/sonarscanner/#windows
 
@@ -21,7 +21,7 @@ Uncomment and add localhost:9000
 
 ![image](https://github.com/user-attachments/assets/d657fd42-d904-47f7-8a9d-10215fe55231)
 
-**Download and install Docker Desktop**
+<h2><b>Download and install Docker Desktop</b></h2>
 
 https://docs.docker.com/desktop/setup/install/windows-install/
 
@@ -40,7 +40,7 @@ Default Credentials
 	admin:admin
 	Change password to Testing@12345
 
-**Start Scanning**
+<h2><b>Start Scan</b></h2>
 
 Browse to http://localhost:9000
 
