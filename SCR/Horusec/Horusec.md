@@ -10,7 +10,7 @@ Make sure source codes are in a folder
 
 ---------------------------------
 
-<h2><b>Convert from text to Excel<h2><b>
+<h2><b>Convert from text to Excel</b></h2>
 
 After FP, remove the following: 
 
