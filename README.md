@@ -1,19 +1,19 @@
-Guide to installating some VAPT tools
+<h2><b>Guide to installating some VAPT tools</b></h2>
 
-Web
+<h2><b>Web</b></h2>
 
 	Burp
 
-Infra
+<h2><b>Infra</b></h2>
 
 	Nessus
 	Ingram
 
-SCR
+<h2><b>SCR</b></h2>
 
 	Horusec
 	SonarQube
 
-Mobile
+<h2><b>Mobile</b></h2>
 
 	MobSF
