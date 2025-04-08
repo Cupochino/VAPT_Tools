@@ -20,7 +20,7 @@ Google Country's network range
 
 Save range of targets in targets1.txt
 
-10.10.10.10/8
+Example: 10.10.10.10/8
 
 	sudo masscan -p80,8000,8008 -iL targets1.txt -oL test1 --rate 8000
 	
