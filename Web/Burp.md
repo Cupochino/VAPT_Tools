@@ -29,3 +29,12 @@ Paste the activation request
 <h2><b>Offline Device</b></h2>
 
 Paste activation response into offline device
+
+---------------------------------------------------------------------
+<h2><b>Troubleshoot</b></h2>
+
+If website can't be reached through Burp Browser, use HTTP/1 instead of HTTP/2
+
+	Burp > Settings > HTTP > Scroll all the way down
+
+![image](https://github.com/user-attachments/assets/aaed0a93-16d1-4951-b7e2-6eb87393a2d1)
