@@ -43,7 +43,7 @@ Rename the PEM file to the hash value with '.0' (zero) as
 
 <img width="85" height="103" alt="image" src="https://github.com/user-attachments/assets/d7f8d2d9-a086-4491-86a2-8c8654053246" />
 
-<h1>**Push the CA cert to emulator**</h1>
+<h1>Push the CA cert to emulator</h1>
 
 adb -s emulator-5554 root
 
@@ -57,7 +57,7 @@ adb -s emulator-5554 reboot
 
 Emulator will reboot
 
-<h1>**Verify burp CA Cert installation**</h1>
+<h1>Verify burp CA Cert installation</h1>
 
 Emulator > Settings > Security and location > Advanced > Encryption and Credentials > System
 
@@ -86,4 +86,5 @@ This is how it should look like
 End result
 
 <img width="850" height="160" alt="image" src="https://github.com/user-attachments/assets/bdcce79b-d806-4b14-9f15-5b9f75e64fdc" />
+
 
