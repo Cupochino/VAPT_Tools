@@ -24,15 +24,15 @@ Put it in path
 
 <img width="218" height="24" alt="image" src="https://github.com/user-attachments/assets/e959baed-2412-4813-b97d-c86aff84b2fd" />
 
-C:\Program Files\OpenSSL-Win64\bin
+        C:\Program Files\OpenSSL-Win64\bin
 
 <h1>Identify hash of pem file</h1>
 
-openssl x509 -inform DER -in burp_CA.crt -out burp_ca.pem
+        openssl x509 -inform DER -in burp_CA.crt -out burp_ca.pem
 
 Converts burp_CA.crt to burp_ca.pem
 
-openssl x509 -inform PEM -subject_hash_old -in burp_ca.pem
+        openssl x509 -inform PEM -subject_hash_old -in burp_ca.pem
 
 <img width="736" height="58" alt="image" src="https://github.com/user-attachments/assets/cc2c429a-a100-40c2-9477-25c393c796c8" />
 
@@ -45,21 +45,21 @@ Rename the PEM file to the hash value with '.0' (zero) as
 
 <h1>Push the CA cert to emulator</h1>
 
-adb -s emulator-5554 root
-
-adb -s emulator-5554 remount
-
-adb -s emulator-5554 push 9a5ba575.0 /system/etc/security/cacerts/
-
-adb -s emulator-5554 shell chmod 644 /system/etc/security/cacerts/9a5ba575.0
-
-adb -s emulator-5554 reboot
+        adb -s emulator-5554 root
+        
+        adb -s emulator-5554 remount
+        
+        adb -s emulator-5554 push 9a5ba575.0 /system/etc/security/cacerts/
+        
+        adb -s emulator-5554 shell chmod 644 /system/etc/security/cacerts/9a5ba575.0
+        
+        adb -s emulator-5554 reboot
 
 Emulator will reboot
 
 <h1>Verify burp CA Cert installation</h1>
 
-Emulator > Settings > Security and location > Advanced > Encryption and Credentials > System
+        Emulator > Settings > Security and location > Advanced > Encryption and Credentials > System
 
 <img width="364" height="185" alt="image" src="https://github.com/user-attachments/assets/9cb6c614-6872-43e2-9d5c-37d20a624474" />
 
@@ -67,13 +67,13 @@ Portswigger CA cert must be under System
 
 <h1>Configure Proxy</h1>
 
-Emulator \> Extended controls \> Proxy
+        Emulator > Extended controls > Proxy
 
-Hostname = 127.0.0.1
-
-Port = 8080
-
-Apply
+        Hostname = 127.0.0.1
+        
+        Port = 8080
+        
+        Apply
 
 Basically the listener for burp
 
@@ -86,5 +86,6 @@ This is how it should look like
 End result
 
 <img width="850" height="160" alt="image" src="https://github.com/user-attachments/assets/bdcce79b-d806-4b14-9f15-5b9f75e64fdc" />
+
 
 
