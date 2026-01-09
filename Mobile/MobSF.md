@@ -40,7 +40,7 @@ Top right > Device Manager
 
 ![image](https://github.com/user-attachments/assets/1df00ede-8fe9-4cb2-9c52-5267e9c521da)
 
-![image](https://github.com/user-attachments/assets/0bbdb091-b1d4-4c65-b0cb-09e3950c6580)
+<img width="895" height="682" alt="image" src="https://github.com/user-attachments/assets/75d203fd-95d8-4cb5-ab29-c3af8795a638" />
 
 Phone > Pixel 5
 
