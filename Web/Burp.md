@@ -22,9 +22,9 @@ https://portswigger.net/burp/documentation/desktop/getting-started/activating-bu
 
 Browse to https://portswigger.net/activate/
 
-Paste the challenge request
+Paste the challenge request !!!Only click 'Send' once!!!
 
-	Copy the activation response into a text file !!!Only click once!!! > Transfer file to offline device
+	Copy the activation response into a text file > Transfer file to offline device
 
 <h2><b>Offline Device</b></h2>
 
