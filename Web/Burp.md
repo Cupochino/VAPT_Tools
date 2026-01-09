@@ -24,7 +24,7 @@ Browse to https://portswigger.net/activate/
 
 Paste the challenge request
 
-	Copy the activation response into a text file > Transfer file to offline device
+	Copy the activation response into a text file !!!Only click once!!! > Transfer file to offline device
 
 <h2><b>Offline Device</b></h2>
 
