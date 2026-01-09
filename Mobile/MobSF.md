@@ -42,11 +42,7 @@ Top right > Device Manager
 
 <img width="895" height="682" alt="image" src="https://github.com/user-attachments/assets/75d203fd-95d8-4cb5-ab29-c3af8795a638" />
 
-Phone > Pixel 5
-
-![image](https://github.com/user-attachments/assets/8d322379-db60-42b7-a64d-712871a465d1)
-
-Download and select Pie, 28, x86, Android 9.0 (Google APIs)
+Download and select API 28 or below > Android 9.0. <h3><b>MUST BE Google API</b></h3>
 
 ![image](https://github.com/user-attachments/assets/b1f94562-e1e3-4220-b9a3-d7862f9a0705)
 
@@ -74,12 +70,11 @@ Identify emulator name
 
 	emulator -list-avds
 
-![image](https://github.com/user-attachments/assets/b26664bf-1cba-4133-995f-62d9de7e453b)
+<img width="317" height="47" alt="image" src="https://github.com/user-attachments/assets/cdbb9d83-340a-4dfe-89d2-4fc0ce545293" />
 
-	emulator -avd Pixel_5_API_28 -writable-system -no-snapshot
- 	emulator -avd <emulator name> -writable-sysytem -no-snapshot
+	emulator -avd Pixel_3 -writable-system -no-snapshot-load -no-snapshot-save
 
-![image](https://github.com/user-attachments/assets/7c19bcf6-e077-45ce-90ae-4342a6bded8a)
+<img width="1583" height="753" alt="image" src="https://github.com/user-attachments/assets/f70087f0-9b72-4a1c-a6bf-af51e579514d" />
 
 <h2><b>Identify emulator serial number</b></h2>
 
