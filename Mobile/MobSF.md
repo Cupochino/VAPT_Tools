@@ -1,4 +1,4 @@
-<h1><b>Windows Only</b></h1>
+[test.md](https://github.com/user-attachments/files/24671910/test.md)<h1><b>Windows Only</b></h1>
 
 Works for both Static and Dynamic Analysis
 
@@ -13,8 +13,6 @@ Works for both Static and Dynamic Analysis
 	https://docs.docker.com/desktop/install/windows-install/
 
 <h2><b>Android Studio</b></h2>
-
-<b>EMULATOR NEEDS TO BE UP AND RUNNING FIRST BEFORE STARTING MOBSF</b>
 
 Download any apk file to test
 
@@ -42,11 +40,9 @@ Top right > Device Manager
 
 <img width="895" height="682" alt="image" src="https://github.com/user-attachments/assets/75d203fd-95d8-4cb5-ab29-c3af8795a638" />
 
-Download and select API 28 or below > Android 9.0. <h3><b>MUST BE Google API</b></h3>
+Download and select API 28 or below > Android 9.0. <h3><b>MUST BE Google API</b></h3> for full root
 
 ![image](https://github.com/user-attachments/assets/b1f94562-e1e3-4220-b9a3-d7862f9a0705)
-
-<h3><b>!!! Do not start emulator in Android Studio !!!</b></h3>
 
 <h2><b>Set emulator path in system path</b></h2>
 
@@ -117,7 +113,7 @@ Upload an APK file or download one to test it out
 
 	https://apkpure.net/
 
-![Uploading image.png…]()
+<img width="1537" height="2212" alt="image" src="https://github.com/user-attachments/assets/d1490ecd-3d59-42e8-97ea-6c87fba2b1b4" />
 
 Will take some time to complete upload and scan
 
@@ -131,54 +127,54 @@ Will be redirected to static analysis report once scanning is done
 
 <h2><b>Dynamic Analysis</b></h2>
 
-Documentation guide
+Dynamic analyzer
 
-	https://www.youtube.com/watch?v=rmveLGhVTG8
+<img width="269" height="61" alt="image" src="https://github.com/user-attachments/assets/2d31f4c3-6840-424f-ae7f-0f08f7d88b94" />
 
-Must complete static first
+If everything goes as planned
 
-<h2><b1>Method 1</b1></h2>
+Otherwise, read the errors in docker desktop > containers > select container > Logs or refer to mobsf
 
-Recent Scans > Static Report
+<img width="690" height="142" alt="image" src="https://github.com/user-attachments/assets/fdcddfe2-bfa9-4772-9d4d-5a24c1661952" />
 
-![image](https://github.com/user-attachments/assets/6b25a490-7b95-4a5e-bd1e-00f660c57d15)
+If Docker Desktop encountered VM /system is not writable
 
-Scan Options > Start Dynamic Analysis
+<img width="767" height="40" alt="image" src="https://github.com/user-attachments/assets/80f8f735-5af8-4029-8f04-9c2955ebd5b7" />
 
-![image](https://github.com/user-attachments/assets/8723f881-143d-42f7-8706-2ac350d11065)
+Make sure emulator is API 28 and below
 
-<h2><b1>Method 2</b1></h2>
+Restart emulator
 
-Start Dynamic analysis directly from dashboard
+<h2>If using API 29 and above</h2>
 
-Top of page > Dynamic Analyzer
+<https://stackoverflow.com/questions/63875910/android-emulator-stuck-on-reboot-after-adb-disable-verity-or-adb-remount>
 
-![image](https://github.com/user-attachments/assets/df47eca7-357c-4b89-9336-e1796dff209b)
+	adb root
+	adb shell avbctl disable-verification
+	adb reboot
+	adb root
+	adb remount
 
-![image](https://github.com/user-attachments/assets/387eb462-3533-4153-8760-f96895b19ce8)
+<img width="387" height="79" alt="image" src="https://github.com/user-attachments/assets/307d641a-d9ee-43f4-83f8-8d000dc26cf6" />
 
-Take note of 'Android version' and 'Detected Android Version'
+MobfSFy Android Runtime
 
-![image](https://github.com/user-attachments/assets/d64eb2ab-404f-4d22-b800-9d989135529b)
+<img width="391" height="439" alt="image" src="https://github.com/user-attachments/assets/67f45e83-232b-4a9a-aa61-ec8dce8dbc14" />
 
-Docker Desktop should notify that environment is ready for testing
+In Docker Desktop
 
-![image](https://github.com/user-attachments/assets/cea2f9a3-5b3c-4d9d-969a-3d932132c607)
+<img width="661" height="80" alt="image" src="https://github.com/user-attachments/assets/867a3942-5131-4266-b19a-92647f565dbd" />
 
-MobSF should display something like this
+Once testing environment is ready,
 
-![image](https://github.com/user-attachments/assets/b787af4f-6b60-4ed2-868f-5a0c3a2260f3)
+<img width="1231" height="432" alt="image" src="https://github.com/user-attachments/assets/dcc8c0fd-2b78-4b79-9f08-cd657aac1a45" />
 
-Click on Start Activity and launch the target application
+<h1></h1>Results to extract PDF</h1>
 
-![image](https://github.com/user-attachments/assets/90f02598-6d76-410e-8da3-8cb68adfd002)
+Use MobSF Scorecard to confirm vulnerabilities and severities
 
-![image](https://github.com/user-attachments/assets/bd9b7451-c99f-403e-bd3b-46a108cec38e)
+Recent Scans > Scoreboard
 
-Once analysis is complete, top right, generate report
+Link to paths
 
-![image](https://github.com/user-attachments/assets/66e017c2-eaad-47f6-bfc5-beb1d2bf6898)
-
-End result
-
-![image](https://github.com/user-attachments/assets/3442323b-e2af-4fc0-9c6e-a2ece985f788)
+<img width="1762" height="660" alt="image" src="https://github.com/user-attachments/assets/b081426a-3e0a-47f2-a737-d828152a00d3" />
