@@ -137,7 +137,7 @@ Otherwise, read the errors in docker desktop > containers > select container > L
 
 <img width="690" height="142" alt="image" src="https://github.com/user-attachments/assets/fdcddfe2-bfa9-4772-9d4d-5a24c1661952" />
 
-If Docker Desktop encountered VM /system is not writable
+<h3>If Docker Desktop encountered VM /system is not writable</h3>
 
 <img width="767" height="40" alt="image" src="https://github.com/user-attachments/assets/80f8f735-5af8-4029-8f04-9c2955ebd5b7" />
 
