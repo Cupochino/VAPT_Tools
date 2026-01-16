@@ -1,4 +1,4 @@
-[test.md](https://github.com/user-attachments/files/24671910/test.md)<h1><b>Windows Only</b></h1>
+<h1><b>Windows Only</b></h1>
 
 Works for both Static and Dynamic Analysis
 
@@ -40,7 +40,7 @@ Top right > Device Manager
 
 <img width="895" height="682" alt="image" src="https://github.com/user-attachments/assets/75d203fd-95d8-4cb5-ab29-c3af8795a638" />
 
-Download and select API 28 or below > Android 9.0. <h3><b>MUST BE Google API</b></h3> for full root
+Download and select API 28 or below > Android 9.0. <b>MUST BE Google API</b> for automatic full root
 
 ![image](https://github.com/user-attachments/assets/b1f94562-e1e3-4220-b9a3-d7862f9a0705)
 
@@ -109,11 +109,9 @@ Browse to 127.0.0.1:8000
 
 ![image](https://github.com/user-attachments/assets/90a80e16-5420-4d76-8af5-a287a153c6d2)
 
-Upload an APK file or download one to test it out
+Upload an APK file
 
-	https://apkpure.net/
-
-<img width="1537" height="2212" alt="image" src="https://github.com/user-attachments/assets/d1490ecd-3d59-42e8-97ea-6c87fba2b1b4" />
+<img width="368" height="167" alt="image" src="https://github.com/user-attachments/assets/2630c34c-7426-47b0-80cb-7d48c874a453" />
 
 Will take some time to complete upload and scan
 
@@ -121,7 +119,9 @@ Once done, go to recent scan
 
 There should be a static scan report made available
 
-Leave it running, don't start anything
+OR
+
+Leave it running, don't do anything
 
 Will be redirected to static analysis report once scanning is done
 
@@ -169,7 +169,7 @@ Once testing environment is ready,
 
 <img width="1231" height="432" alt="image" src="https://github.com/user-attachments/assets/dcc8c0fd-2b78-4b79-9f08-cd657aac1a45" />
 
-<h1></h1>Results to extract PDF</h1>
+<h1>Results to extract PDF</h1>
 
 Use MobSF Scorecard to confirm vulnerabilities and severities
 
@@ -177,4 +177,5 @@ Recent Scans > Scoreboard
 
 Link to paths
 
-<img width="1762" height="660" alt="image" src="https://github.com/user-attachments/assets/b081426a-3e0a-47f2-a737-d828152a00d3" />
+<img width="1643" height="130" alt="image" src="https://github.com/user-attachments/assets/41cbc111-86dc-4164-8da9-b8d54a2785a9" />
+
