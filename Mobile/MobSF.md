@@ -107,8 +107,6 @@ Run Docker
 
 Browse to 127.0.0.1:8000
 
-![image](https://github.com/user-attachments/assets/90a80e16-5420-4d76-8af5-a287a153c6d2)
-
 Upload an APK file
 
 <img width="368" height="167" alt="image" src="https://github.com/user-attachments/assets/2630c34c-7426-47b0-80cb-7d48c874a453" />
