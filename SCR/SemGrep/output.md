@@ -14,19 +14,17 @@ Add both to PATH
 
 <h1>Setting up</h1>
 
-Browse to target folder
+cd to target folder
 
 Set environment configs
 
     powershell
     
-    \$env:PYTHONUTF8="1"
+    $env:PYTHONUTF8="1"
     
-    \$env:PYTHONIOENCODING="utf-8"
+    $env:PYTHONIOENCODING="utf-8"
     
-    \$env:SEMGREP_REPO_URL="https://local-scan/\<Target Folder\"
-    
-    \$env:SEMGREP_REPO_URL="https://local-scan/MAVIS2-SCR"
+    $env:SEMGREP_REPO_URL="https://local-scan/<Target Folder>"
 
 Configure git identity
 
@@ -48,8 +46,7 @@ Git not required but output sucks
 
 Full Scan (Will take a long while)
 
-    semgrep scan --config p/owasp-top-ten --config p/secrets --config
-    p/security-audit --config p/default --json --output results.json
+    semgrep scan --config p/owasp-top-ten --config p/secrets --config p/security-audit --config p/default --json --output results.json
 
 Full security baseline        
 
@@ -91,10 +88,10 @@ Copy link to browser and click activate
 
 Results
 
-<img width="481" height="271" alt="image" src="https://github.com/user-attachments/assets/b7b4213d-35d1-4a1d-ace9-bc95abc0605a" />
+<img width="404" height="79" alt="image" src="https://github.com/user-attachments/assets/45a1a388-9fc4-46be-b01d-1ce1e1156902" />
 
 Copy the findings URL
 
 Browse to Projects > Project Name > Code findings
 
-<img width="481" height="271" alt="image" src="https://github.com/user-attachments/assets/50c2e54c-0eaf-47cf-9e90-7a602fc13b8c" />
+<img width="470" height="150" alt="image" src="https://github.com/user-attachments/assets/1973171c-18a9-4019-869b-ed3cae70d771" />
